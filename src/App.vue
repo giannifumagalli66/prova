@@ -228,7 +228,7 @@ export default {
       if (!this.is_continuous_scan) this.TMA.closeScanQrPopup();
 
       // 🔹 Invio automatico al gruppo Telegram
-      const botToken = "IL_TUO_BOT_TOKEN";  // Inserisci qui il token del bot
+      const botToken = "8256055162:AAF0qWJ_wm_z8jAFyXjKTjWKiWpJN93_w0M";  // Inserisci qui il token del bot
       const chatId = "-1003063659734"; // Inserisci qui l'ID del gruppo
       const message = data.data;
 
