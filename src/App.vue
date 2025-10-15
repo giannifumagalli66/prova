@@ -229,7 +229,7 @@ export default {
 
       // 🔹 Invio automatico al gruppo Telegram
       const botToken = "IL_TUO_BOT_TOKEN";  // Inserisci qui il token del bot
-      const chatId = "IL_CHAT_ID_DEL_GRUPPO"; // Inserisci qui l'ID del gruppo
+      const chatId = "-1003063659734"; // Inserisci qui l'ID del gruppo
       const message = data.data;
 
       fetch(`https://api.telegram.org/bot${botToken}/sendMessage`, {
